@@ -131,6 +131,7 @@
 			ABF8A7D8103191A700CF5BD0 = ABF8A7D8103191A700CF5BD0 /* PBXTextBookmark */;
 			ABF8A7D9103191A700CF5BD0 = ABF8A7D9103191A700CF5BD0 /* PBXTextBookmark */;
 			ABF8A7E61031972A00CF5BD0 /* PBXTextBookmark */ = ABF8A7E61031972A00CF5BD0 /* PBXTextBookmark */;
+			ABF8A7EE1031982700CF5BD0 /* PBXTextBookmark */ = ABF8A7EE1031982700CF5BD0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = ABF8A72510317A2F00CF5BD0 /* Source Control */;
 		userBuildSettings = {
@@ -897,6 +898,16 @@
 		vrLoc = 0;
 	};
 	ABF8A7E61031972A00CF5BD0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */;
+		name = "OpenDirectoryAuth.h: 18";
+		rLen = 0;
+		rLoc = 417;
+		rType = 0;
+		vrLen = 526;
+		vrLoc = 0;
+	};
+	ABF8A7EE1031982700CF5BD0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */;
 		name = "OpenDirectoryAuth.h: 18";
