@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryAuth.h; sourceTree = "<group>"; };
 		ABF8A72A10317A4500CF5BD0 /* OpenDirectoryAuth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenDirectoryAuth.c; sourceTree = "<group>"; };
-		ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OpenDirectoryAuth; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OpenDirectoryAuth.so; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF8A74010317AF500CF5BD0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		ABF8A770103183B000CF5BD0 /* DirectoryService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DirectoryService.framework; path = /System/Library/Frameworks/DirectoryService.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 		ABF8A73010317A5700CF5BD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth */,
+				ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			);
 			name = OpenDirectoryAuth;
 			productName = OpenDirectoryAuth;
-			productReference = ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth */;
+			productReference = ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -162,9 +162,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
