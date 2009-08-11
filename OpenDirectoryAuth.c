@@ -963,9 +963,9 @@ authenticate(PyObject *self, PyObject *args)
 	
 	err = CheckPasswordUsingOpenDirectory(username, password);
 	if (err == 0) {
-		return Py_True;
+		Py_RETURN_TRUE;
 	} else {
-		return Py_False;
+		Py_RETURN_FALSE;
 	}
 
 	/*
