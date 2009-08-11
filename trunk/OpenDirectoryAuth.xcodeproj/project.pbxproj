@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF8A73410317AA000CF5BD0 /* OpenDirectoryAuth.c in Sources */ = {isa = PBXBuildFile; fileRef = ABF8A72A10317A4500CF5BD0 /* OpenDirectoryAuth.c */; };
+		ABF8A73510317AA100CF5BD0 /* OpenDirectoryAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */; };
+		ABF8A74110317AF500CF5BD0 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF8A74010317AF500CF5BD0 /* Python.framework */; };
+		ABF8A771103183B000CF5BD0 /* DirectoryService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF8A770103183B000CF5BD0 /* DirectoryService.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryAuth.h; sourceTree = "<group>"; };
+		ABF8A72A10317A4500CF5BD0 /* OpenDirectoryAuth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenDirectoryAuth.c; sourceTree = "<group>"; };
+		ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OpenDirectoryAuth.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF8A74010317AF500CF5BD0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		ABF8A770103183B000CF5BD0 /* DirectoryService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DirectoryService.framework; path = /System/Library/Frameworks/DirectoryService.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF8A72D10317A5700CF5BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF8A74110317AF500CF5BD0 /* Python.framework in Frameworks */,
+				ABF8A771103183B000CF5BD0 /* DirectoryService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF8A71F10317A2F00CF5BD0 = {
+			isa = PBXGroup;
+			children = (
+				ABF8A72910317A4500CF5BD0 /* OpenDirectoryAuth.h */,
+				ABF8A72A10317A4500CF5BD0 /* OpenDirectoryAuth.c */,
+				ABF8A73010317A5700CF5BD0 /* Products */,
+				ABF8A74010317AF500CF5BD0 /* Python.framework */,
+				ABF8A770103183B000CF5BD0 /* DirectoryService.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF8A73010317A5700CF5BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABF8A72B10317A5700CF5BD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF8A73510317AA100CF5BD0 /* OpenDirectoryAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABF8A72E10317A5700CF5BD0 /* OpenDirectoryAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF8A73310317A5700CF5BD0 /* Build configuration list for PBXNativeTarget "OpenDirectoryAuth" */;
+			buildPhases = (
+				ABF8A72B10317A5700CF5BD0 /* Headers */,
+				ABF8A72C10317A5700CF5BD0 /* Sources */,
+				ABF8A72D10317A5700CF5BD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenDirectoryAuth;
+			productName = OpenDirectoryAuth;
+			productReference = ABF8A72F10317A5700CF5BD0 /* OpenDirectoryAuth.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF8A72110317A2F00CF5BD0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ABF8A72410317A2F00CF5BD0 /* Build configuration list for PBXProject "OpenDirectoryAuth" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = ABF8A71F10317A2F00CF5BD0;
+			productRefGroup = ABF8A73010317A5700CF5BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF8A72E10317A5700CF5BD0 /* OpenDirectoryAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF8A72C10317A5700CF5BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF8A73410317AA000CF5BD0 /* OpenDirectoryAuth.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABF8A72210317A2F00CF5BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		ABF8A72310317A2F00CF5BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		ABF8A73110317A5700CF5BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = mh_bundle;
+				PREBINDING = NO;
+				PRODUCT_NAME = OpenDirectoryAuth;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		ABF8A73210317A5700CF5BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = OpenDirectoryAuth;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF8A72410317A2F00CF5BD0 /* Build configuration list for PBXProject "OpenDirectoryAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF8A72210317A2F00CF5BD0 /* Debug */,
+				ABF8A72310317A2F00CF5BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF8A73310317A5700CF5BD0 /* Build configuration list for PBXNativeTarget "OpenDirectoryAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF8A73110317A5700CF5BD0 /* Debug */,
+				ABF8A73210317A5700CF5BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF8A72110317A2F00CF5BD0 /* Project object */;
+}
